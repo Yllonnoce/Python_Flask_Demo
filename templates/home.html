@@ -1,0 +1,41 @@
+ <html>
+    <head>
+        <title>Queue Home</title>
+        <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <div id="container">
+            <div class="title">
+                <h1>Queue Music Home</h1>
+            </div>
+            <div id="content">
+                <form method="post" action="{{ url_for('controls') }}">
+				     <label for="form">Controls</label>
+				     <input type="submit" name="submit" value="Go to Controls"> 
+					 <input type="submit" name="submit" value="Next Song">
+					 <input type="submit" name="submit" value="Utilities">
+					 </br>
+					 </br>
+					 <input type="submit" name="submit" value="Mute">
+					 <input type="submit" name="submit" value="40">
+					 <input type="submit" name="submit" value="50">
+					 <input type="submit" name="submit" value="60">
+					 <input type="submit" name="submit" value="70">
+					 <input type="submit" name="submit" value="80">
+					 <input type="submit" name="submit" value="90">
+					 <input type="submit" name="submit" value="100">
+					 </br>
+					 <label for="form">Stats</label>
+					 <table border = 1>
+						{% for item in items %}
+							<tr>
+								<td>{{item[0]}}</td>
+								<td>{{item[1]}}</td>
+							</tr>
+						{% endfor %}
+					</table>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

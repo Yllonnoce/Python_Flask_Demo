@@ -1,0 +1,76 @@
+2022-11-09 14:59:58,832 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://192.168.7.201:8081
+2022-11-09 14:59:58,832 INFO werkzeug [33mPress CTRL+C to quit[0m
+2022-11-09 15:00:13,445 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:00:13] "GET / HTTP/1.1" 200 -
+2022-11-09 15:00:14,135 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:00:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-09 15:00:16,339 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:00:16] "POST / HTTP/1.1" 200 -
+2022-11-09 15:00:16,642 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:00:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-09 15:00:32,676 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:00:32] "[32mPOST / HTTP/1.1[0m" 302 -
+2022-11-09 15:00:32,686 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:00:32] "GET / HTTP/1.1" 200 -
+2022-11-09 15:00:32,768 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:00:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-09 15:00:40,298 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:00:40] "POST / HTTP/1.1" 200 -
+2022-11-09 15:00:40,314 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:00:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-09 15:00:44,024 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:00:44] "POST / HTTP/1.1" 200 -
+2022-11-09 15:00:44,328 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:00:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-09 15:00:47,865 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:00:47] "[32mPOST / HTTP/1.1[0m" 302 -
+2022-11-09 15:00:47,874 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:00:47] "GET / HTTP/1.1" 200 -
+2022-11-09 15:00:47,891 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:00:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-09 15:00:51,443 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:00:51] "POST / HTTP/1.1" 200 -
+2022-11-09 15:00:51,458 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:00:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-09 15:00:52,813 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:00:52] "POST / HTTP/1.1" 200 -
+2022-11-09 15:00:53,110 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:00:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-09 15:01:02,192 DEBUG gtts.tts text: Tower of Terror
+2022-11-09 15:01:02,192 DEBUG gtts.tts tld: com
+2022-11-09 15:01:02,192 DEBUG gtts.tts lang: en
+2022-11-09 15:01:02,192 DEBUG gtts.tts slow: False
+2022-11-09 15:01:02,192 DEBUG gtts.tts lang_check: True
+2022-11-09 15:01:02,192 DEBUG gtts.tts pre_processor_funcs: [<function tone_marks at 0x000001DEDEDAC430>, <function end_of_line at 0x000001DEDEDACC10>, <function abbreviations at 0x000001DEDEDACCA0>, <function word_sub at 0x000001DEDEDACD30>]
+2022-11-09 15:01:02,192 DEBUG gtts.tts tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=\uff1f).|(?<=\uff01).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\uff1a|\uff0c|…|\\]|—|¡|\u3002|\u2025|\\[|\u060c|\\(|;|\u3001|\\)|¿|\\\n', re.IGNORECASE) from: [<function tone_marks at 0x000001DEDEDACEE0>, <function period_comma at 0x000001DEDEDACF70>, <function colon at 0x000001DEDEDB0040>, <function other_punctuation at 0x000001DEDEDB00D0>]>
+2022-11-09 15:01:02,192 DEBUG gtts.lang langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ms': 'Malay', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2022-11-09 15:01:02,194 DEBUG gtts.tts pre-processing: <function tone_marks at 0x000001DEDEDAC430>
+2022-11-09 15:01:02,194 DEBUG gtts.tts pre-processing: <function end_of_line at 0x000001DEDEDACC10>
+2022-11-09 15:01:02,194 DEBUG gtts.tts pre-processing: <function abbreviations at 0x000001DEDEDACCA0>
+2022-11-09 15:01:02,195 DEBUG gtts.tts pre-processing: <function word_sub at 0x000001DEDEDACD30>
+2022-11-09 15:01:02,195 DEBUG gtts.tts text_parts: ['Tower of Terror']
+2022-11-09 15:01:02,195 DEBUG gtts.tts text_parts: 1
+2022-11-09 15:01:02,195 DEBUG gtts.tts data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Tower%20of%20Terror%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2022-11-09 15:01:02,196 DEBUG urllib3.connectionpool Starting new HTTPS connection (1): translate.google.com:443
+2022-11-09 15:01:02,454 DEBUG urllib3.connectionpool https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2022-11-09 15:01:02,458 DEBUG gtts.tts headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '149'}
+2022-11-09 15:01:02,458 DEBUG gtts.tts url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2022-11-09 15:01:02,458 DEBUG gtts.tts status-0: 200
+2022-11-09 15:01:02,458 DEBUG gtts.tts part-0 written to <_io.BufferedWriter name='C:\\Users\\yllonnoce\\Documents\\GitHub\\Python_Flask_Demo\\tts\\2022-11-09-02-192976.mp3'>
+2022-11-09 15:01:02,458 DEBUG gtts.tts part-0 created
+2022-11-09 15:01:02,458 DEBUG gtts.tts Saved to C:\Users\yllonnoce\Documents\GitHub\Python_Flask_Demo\tts\2022-11-09-02-192976.mp3
+2022-11-09 15:01:03,481 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:01:03] "[32mPOST / HTTP/1.1[0m" 302 -
+2022-11-09 15:01:03,493 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:01:03] "GET / HTTP/1.1" 200 -
+2022-11-09 15:01:03,511 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:01:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-09 15:01:05,752 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:01:05] "POST / HTTP/1.1" 200 -
+2022-11-09 15:01:05,767 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:01:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-09 15:01:07,997 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:01:07] "POST / HTTP/1.1" 200 -
+2022-11-09 15:01:08,305 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:01:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-09 15:01:13,206 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:01:13] "[32mPOST / HTTP/1.1[0m" 302 -
+2022-11-09 15:01:13,215 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:01:13] "GET / HTTP/1.1" 200 -
+2022-11-09 15:01:13,237 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:01:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-09 15:01:17,393 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:01:17] "[32mPOST / HTTP/1.1[0m" 302 -
+2022-11-09 15:01:17,403 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:01:17] "GET / HTTP/1.1" 200 -
+2022-11-09 15:01:17,420 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:01:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-09 15:01:23,917 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:01:23] "[32mPOST / HTTP/1.1[0m" 302 -
+2022-11-09 15:01:23,928 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:01:23] "GET / HTTP/1.1" 200 -
+2022-11-09 15:01:23,944 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:01:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-09 15:01:25,583 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:01:25] "POST / HTTP/1.1" 200 -
+2022-11-09 15:01:25,600 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:01:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-09 15:01:27,110 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:01:27] "POST / HTTP/1.1" 200 -
+2022-11-09 15:01:27,412 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:01:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-09 15:01:32,268 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:01:32] "[32mPOST / HTTP/1.1[0m" 302 -
+2022-11-09 15:01:32,277 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:01:32] "GET / HTTP/1.1" 200 -
+2022-11-09 15:01:32,292 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:01:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-09 15:01:57,875 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:01:57] "POST / HTTP/1.1" 200 -
+2022-11-09 15:01:57,893 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:01:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-09 15:02:09,638 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:02:09] "POST / HTTP/1.1" 200 -
+2022-11-09 15:02:09,943 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:02:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-09 15:02:12,380 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:02:12] "[32mPOST / HTTP/1.1[0m" 302 -
+2022-11-09 15:02:12,390 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:02:12] "GET / HTTP/1.1" 200 -
+2022-11-09 15:02:12,404 INFO werkzeug 127.0.0.1 - - [09/Nov/2022 15:02:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -

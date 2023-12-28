@@ -20,3 +20,5 @@ def set_volume(vl):
          vl = vl/100 * 4400 - 4400
          #print(vl)
          subprocess.Popen('sudo amixer cset numid=1 -- ' + str(vl),shell=True, stdout=subprocess.PIPE).wait()
+         #headless
+         #subprocess.Popen('amixer cset numid=3 -- ' + str(vl),shell=True, stdout=subprocess.PIPE).wait()
